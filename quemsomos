@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Somos - Instituto Hong Dojang</title>
+    <style>
+        :root {
+            --primary-red: #c62828;
+            --dark-red: #8e0000;
+            --light-bg: #f9f9f9;
+            --white: #ffffff;
+            --text-dark: #333333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--text-dark);
+        }
+
+        header {
+            background-color: var(--primary-red);
+            color: var(--white);
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: var(--white);
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .highlight-box {
+            border-left: 5px solid var(--primary-red);
+            padding: 1.5rem;
+            background: #fff5f5;
+            font-style: italic;
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: var(--dark-red);
+        }
+
+        h2 {
+            color: var(--primary-red);
+            border-bottom: 2px solid var(--primary-red);
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .meaning-section {
+            background-color: #f1f1f1;
+            padding: 1.5rem;
+            border-radius: 5px;
+            margin: 2rem 0;
+        }
+
+        .meaning-item strong {
+            color: var(--primary-red);
+            font-size: 1.2rem;
+        }
+
+        .final-quote {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.3rem;
+            color: var(--dark-red);
+            margin: 3rem 0;
+            padding: 1rem;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Instituto Hong Dojang</h1>
+    </header>
+
+    <div class="container">
+        <h2>Quem Somos</h2>
+
+        <div class="highlight-box">
+            “O nome Hong Dojang foi escolhido por unir a tradição das artes marciais coreanas, representadas pelo termo dojang – o local de disciplina, respeito e aperfeiçoamento – com Hong, que vem da parte vermelha da bandeira da Coreia do Sul, símbolo da energia positiva (yang), da vitalidade e do movimento. Assim, o espaço se propõe a ser mais que uma academia: um centro de desenvolvimento físico, cultural e humano.”
+        </div>
+
+        <p>O Instituto Hong Dojang nasce com a missão de unir tradição, disciplina e valores das artes marciais coreanas a um ambiente de aprendizado e desenvolvimento humano.</p>
+
+        <p>O termo <strong>Dojang (도장)</strong>, em coreano, significa muito mais do que um espaço de treino: é o local onde se cultivam respeito, perseverança e harmonia, pilares fundamentais da cultura marcial.</p>
+
+        <p>Já <strong>Hong (홍)</strong> remete ao vermelho presente no Taegeukgi, a bandeira da Coreia do Sul. Esse vermelho simboliza a energia positiva (yang), a vitalidade e o movimento constante da vida. Ao unir esses significados, o Instituto Hong Dojang representa um espaço de crescimento físico, mental e espiritual, inspirado na filosofia oriental de equilíbrio entre corpo e mente.</p>
+
+        <div class="final-quote">
+            “Academia que representa a energia positiva no caminho marcial.”
+        </div>
+
+        <p>Mais do que uma academia, somos um centro de formação e cultura, onde cada aluno encontra não apenas o caminho da técnica, mas também o fortalecimento de valores que transcendem o tatame.</p>
+    </div>
+
+    <footer>
+        &copy; 2026 Instituto Hong Dojang - Tradição e Movimento.
+    </footer>
+
+</body>
+</html>
