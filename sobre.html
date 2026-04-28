@@ -25,12 +25,8 @@
         }
 
         header {
-            background-color: var(--primary-red);
-            color: var(--white);
-            padding: 2rem 0;
-            text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
+            background-color: var(--primary-black);
+                    }
 
         header h1 {
             margin: 0;
@@ -103,7 +99,15 @@
 <body>
 
     <header>
-        <h1>Instituto Hong Dojang</h1>
+        <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter text-red-600 uppercase">Instituto Hong Dojang</div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="index.html" class="hover:text-red-600 transition">Início</a>                
+            </div>
+            <a href="https://wa.me/5577999402041" target="_blank" class="bg-red-600 text-white px-5 py-2 rounded-full font-bold hover:bg-red-700 transition initial-scale=1.0">Matricule-se</a>
+        </div>
+    </nav>
     </header>
 
     <div class="container">
