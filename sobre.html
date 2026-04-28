@@ -1,50 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Hong Dojang | Taekwondo em Bom Jesus da Lapa</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <title>Quem Somos - Instituto Hong Dojang</title>
     <style>
-        :root {
-            --primary-red: #c62828;
-            --dark-red: #8e0000;
-            --light-bg: #f9f9f9;
-            --white: #ffffff;
-            --text-dark: #333333;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: var(--light-bg);
-            color: var(--text-dark);
-        }
-
-        header {
-            background-color: var(--primary-black);
-                    }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background: var(--white);
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-
-        .highlight-box {
+         .highlight-box {
             border-left: 5px solid var(--primary-red);
             padding: 1.5rem;
             background: #fff5f5;
@@ -53,59 +16,27 @@
             margin-bottom: 2rem;
             color: var(--dark-red);
         }
-
-        h2 {
-            color: var(--primary-red);
-            border-bottom: 2px solid var(--primary-red);
-            display: inline-block;
-            margin-bottom: 1.5rem;
-            text-transform: uppercase;
+        
+        .hero-gradient {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1552072092-7f9b8d63efcb?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
         }
-
-        p {
-            margin-bottom: 1.5rem;
-            text-align: justify;
-        }
-      
-        .meaning-section {
-            background-color: #f1f1f1;
-            padding: 1.5rem;
-            border-radius: 5px;
-            margin: 2rem 0;
-        }
-
-        .meaning-item strong {
-            color: var(--primary-red);
-            font-size: 1.2rem;
-        }
-
-        .final-quote {
-            text-align: center;
-            font-weight: bold;
-            font-size: 1.3rem;
-            color: var(--dark-red);
-            margin: 3rem 0;
-            padding: 1rem;
-            border-top: 1px solid #ddd;
-            border-bottom: 1px solid #ddd;
-        }
-       
     </style>
 </head>
-<body>   
+<body class="bg-gray-50 text-gray-800 font-sans">
 
-    <div class="container">
-        <header>
-        <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
         <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
             <div class="text-2xl font-bold tracking-tighter text-red-600 uppercase">Instituto Hong Dojang</div>
             <div class="hidden md:flex space-x-8 font-medium">
-                <a href="index.html" class="hover:text-red-600 transition">Início</a>                
+                <a href="index.html" class="hover:text-red-600 transition">Início</a>               
             </div>
             <a href="https://wa.me/5577999402041" target="_blank" class="bg-red-600 text-white px-5 py-2 rounded-full font-bold hover:bg-red-700 transition initial-scale=1.0">Matricule-se</a>
         </div>
     </nav>
-    </header>
+
+    <section id="home" class="hero-gradient h-screen flex items-center justify-center text-center text-white px-4">
         <h2>Quem Somos</h2>
 
         <div class="highlight-box">
@@ -124,6 +55,7 @@
 
         <p>Mais do que uma academia, somos um centro de formação e cultura, onde cada aluno encontra não apenas o caminho da técnica, mas também o fortalecimento de valores que transcendem o tatame.</p>
     </div>
+    </section>      
 
     <footer class="bg-black text-white py-12 px-4 text-center">
         <p class="text-gray-500 mb-4">&copy; 2026 Instituto Hong Dojang de Artes Marciais - Todos os direitos reservados.</p>
@@ -133,5 +65,11 @@
         </div>
     </footer>
 
+    <a href="https://wa.me/5577999402041" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:bg-green-600 transition-all transform hover:scale-110 z-50">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
 </body>
 </html>
+
+
