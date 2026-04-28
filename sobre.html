@@ -7,7 +7,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-         .highlight-box {
+        
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: var(--white);
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+        }
+
+        .highlight-box {
             border-left: 5px solid var(--primary-red);
             padding: 1.5rem;
             background: #fff5f5;
@@ -15,10 +25,17 @@
             font-size: 1.1rem;
             margin-bottom: 2rem;
             color: var(--dark-red);
-            background-size: cover;
-            background-position: center;
-        }        
-        
+        }
+        .final-quote {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.3rem;
+            color: var(--dark-red);
+            margin: 3rem 0;
+            padding: 1rem;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
@@ -34,6 +51,7 @@
     </nav>
 
     <section id="home" h-screen flex items-center justify-center text-center text-white px-4">
+        <div class="container">
         <h2>Quem Somos</h2>
 
         <div class="highlight-box">
@@ -51,6 +69,7 @@
         </div>
 
         <p>Mais do que uma academia, somos um centro de formação e cultura, onde cada aluno encontra não apenas o caminho da técnica, mas também o fortalecimento de valores que transcendem o tatame.</p>
+    </div>
     </div>
     </section>      
 
